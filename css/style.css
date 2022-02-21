@@ -112,9 +112,20 @@ nav>a{
      padding-right: 1rem;
  }
 
+ .section_blog h2{
+     font-size: 2.5rem;
+ }
+
+ .section_blog p,
+ .section_blog span{
+     font-size: 1.5rem;
+     color: #b1b1b1;
+
+
+ }
+
 
  .header_blog{
-     background-color: darkolivegreen;
      margin: 2rem 0;
  }
 
