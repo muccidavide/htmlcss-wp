@@ -1,0 +1,78 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 10rem;
+    background-color: black;
+}
+/* Utility */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+/********
+ Header 
+ **********/
+
+#header_site{
+    background-color: aqua;
+    height: 150px;
+}
+
+.logo_site{
+    background-color: lightblue;
+    height: 60%;
+    width: 30%;
+}
+
+.nav_site{
+    background-color: blue;
+    height: 40%;
+}
+
+/*******
+ Main 
+ *******/
+
+ .section_img{
+     margin: 2rem 0;
+     height: 500px;
+     background-color: red;
+ }
+
+
+ .header_blog{
+     background-color: darkolivegreen;
+     height: 150px;
+     margin: 2rem 0;
+ }
+
+ .container_articles > aside{
+     background-color: lawngreen;
+     width: 25%;
+ }
+
+ .section_center{
+     background-color: cornflowerblue;
+     width: 40%;
+     margin: 0 5%;
+ }
+
+ aside, .section_center{
+     float: left;
+     height: 500px;
+ }
+
+ /* Footer */
+ #footer_site{
+     background-color: violet;
+     margin-top: 2rem;
+     height: 100px;
+ }
