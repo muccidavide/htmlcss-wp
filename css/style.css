@@ -36,15 +36,15 @@ color:#b1b1b1;
 Height 
 ********/
 
-/* #header_site,
+
 #footer_site,
 .header_blog {
     
     height: 150px;
 
-} */
+}
 
-.section_img,
+
 aside, 
 .section_center{
 
@@ -81,8 +81,17 @@ nav>a{
  *******/
 
  .section_img{
-     margin: 2rem 0;
+     margin-top: 2rem;
      background-color: red;
+ }
+
+ .section_img>img{
+     width: 100%;
+     max-height: 100%;
+     object-fit: cover;
+     height: 600px;
+
+     
  }
 
 
