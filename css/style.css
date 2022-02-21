@@ -91,7 +91,11 @@ nav>a{
      object-fit: cover;
      height: 600px;
 
-     
+ }
+
+ .text_banner{
+     color: white;
+     width: 30%;
  }
 
 
