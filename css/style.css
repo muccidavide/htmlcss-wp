@@ -1,4 +1,7 @@
-/* Reset */
+
+/********
+General 
+*********/
 *{
     margin: 0;
     padding: 0;
@@ -6,36 +9,72 @@
 }
 
 body{
-    margin: 0 10rem;
-    background-color: black;
+    width: 1440px;
+    margin: auto;
 }
-/* Utility */
+
+a:visited{
+text-decoration: none;
+color:#b1b1b1;
+}
+
+/********
+ Utility 
+ *********/
+
+.text_grey{
+    color:#b1b1b1;
+}
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+/******** 
+Height 
+********/
+
+/* #header_site,
+#footer_site,
+.header_blog {
+    
+    height: 150px;
+
+} */
+
+.section_img,
+aside, 
+.section_center{
+
+    height: 500px;
+}
  
 /********
  Header 
  **********/
 
-#header_site{
-    background-color: aqua;
-    height: 150px;
+.logo_site{
+    width: 13%;
+    border-right: solid 1px #b1b1b1;
 }
 
-.logo_site{
-    background-color: lightblue;
-    height: 60%;
-    width: 30%;
+.logo_site > img{
+    width: 100%;
+    padding: 1rem;
 }
 
 .nav_site{
-    background-color: blue;
-    height: 40%;
+    margin-top: 2REM;
 }
+
+nav>a{
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
 
 /*******
  Main 
@@ -43,14 +82,12 @@ body{
 
  .section_img{
      margin: 2rem 0;
-     height: 500px;
      background-color: red;
  }
 
 
  .header_blog{
      background-color: darkolivegreen;
-     height: 150px;
      margin: 2rem 0;
  }
 
@@ -66,13 +103,11 @@ body{
  }
 
  aside, .section_center{
-     float: left;
-     height: 500px;
+     float: left;;
  }
 
  /* Footer */
  #footer_site{
      background-color: violet;
      margin-top: 2rem;
-     height: 100px;
  }
