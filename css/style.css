@@ -14,13 +14,6 @@ body {
     margin: auto;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #b1b1b1;
-}
-
-
-
 /********
  Utility 
  *********/
@@ -34,24 +27,6 @@ a:visited {
     display: table;
     clear: both;
 }
-
-/******** 
-Height 
-********/
-
-
-#footer_site {
-
-    height: 150px;
-
-}
-
-
-/* aside,
-.section_center {
-
-    height: 500px;
-} */
 
 /********
  Header 
@@ -75,6 +50,7 @@ nav>a {
     padding: 0.3rem;
     margin-right: 0.5rem;
     text-decoration: none;
+    color: #b1b1b1;
 }
 
 
@@ -138,19 +114,19 @@ Blog Section
     width: 25%;
 }
 
-.section_center {
-    width: 46%;
-    margin: 0 2%;
-}
-
 aside,
 .section_center {
     float: left;
     ;
 }
 
+.section_center {
+    width: 46%;
+    margin: 0 2%;
+}
+
 .box_img{
-    height: 15rem;
+    height: 300px;
     border-radius: 1rem;
     background-color: black;
     margin-bottom: 1rem;
@@ -161,7 +137,6 @@ aside,
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: middle;
     opacity: 0.8;
 }
 
@@ -173,6 +148,12 @@ aside,
 
 /* Footer */
 #footer_site {
-    background-color: violet;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem ;
+}
+
+.love{
+    color: red;
+    
 }
