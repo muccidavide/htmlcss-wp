@@ -139,9 +139,8 @@ Blog Section
 }
 
 .section_center {
-    background-color: cornflowerblue;
-    width: 40%;
-    margin: 0 5%;
+    width: 46%;
+    margin: 0 2%;
 }
 
 aside,
@@ -151,7 +150,7 @@ aside,
 }
 
 .box_img{
-    height: 20rem;
+    height: 15rem;
     border-radius: 1rem;
     background-color: black;
     margin-bottom: 1rem;
@@ -162,6 +161,7 @@ aside,
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: middle;
     opacity: 0.8;
 }
 
